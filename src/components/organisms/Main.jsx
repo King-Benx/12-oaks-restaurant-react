@@ -13,7 +13,7 @@ function Main({location, term}){
             ...state,
             loading:true,
         });
-        await fetch(`${process.env.REACT_APP_API}/restaurants?location=${location}&term=${term}`).then(async(res)=> {
+        await fetch(`${process.env.REACT_APP_API}/api/restaurants?location=${location}&term=${term}`).then(async(res)=> {
             if(res.status === 200){
              setState({
             ...state,
