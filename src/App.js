@@ -5,7 +5,7 @@ import Footer from "./components/atoms/Footer";
 
 function App() {
   return (
-    <div>
+    <div data-testid="app">
       <BrowserRouter>
         <NavBar/>
         <Pages/>

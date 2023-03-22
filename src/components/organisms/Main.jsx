@@ -8,7 +8,6 @@ import "react-toastify/dist/ReactToastify.css";
 
 function Main({ location, term }) {
   const [state, setState] = useState({});
-  
 
   useEffect(() => {
     const controller = new AbortController();
@@ -63,6 +62,7 @@ function Main({ location, term }) {
     <div
       id="contentSection"
       className="flex flex-row flex-wrap gap-4 justify-center px-xs-12 mb-10"
+      data-testid="main"
     >
       {state.loading && <Loader />}
       {!state.loading &&

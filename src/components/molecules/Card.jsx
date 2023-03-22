@@ -5,6 +5,7 @@ function Card({ image_url, name, id, rating, review_count, price, clickListener 
   const cardClick=() =>clickListener(id);
   return (
     <div
+      data-testid="card"
       className="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-70 cursor-pointer"
       onClick={()=>cardClick()}
       onKeyDown={()=>cardClick()}
