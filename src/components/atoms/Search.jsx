@@ -20,10 +20,10 @@ function Search({ onSubmitHandler }) {
               required
               value={state.location}
               onChange={e =>
-                setState({
-                  ...state,
+                setState(prevState=>({
+                  ...prevState,
                   location: e.target.value,
-                })
+                }))
               }
             />
           </div>
@@ -36,10 +36,10 @@ function Search({ onSubmitHandler }) {
               required
               value={state.term}
               onChange={e =>
-                setState({
-                  ...state,
+                setState(prevState=>({
+                  ...prevState,
                   term: e.target.value,
-                })
+                }))
               }
             />
           </div>
