@@ -13,7 +13,7 @@ function Home() {
   };
 
   return (
-    <div>
+    <div data-testid="home">
       <Search onSubmitHandler={onSearch} />
       <Main {...state}/>
     </div>

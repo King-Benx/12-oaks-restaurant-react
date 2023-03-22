@@ -1,0 +1,336 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  aria-hidden="true"
+  className="fixed backdrop-blur-sm bg-white/30 top-0 left-0 right-0 z-50 visible w-full p-4 overflow-x-hidden overflow-y-auto  h-[calc(100%-1rem)] md:h-full"
+  data-testid="customModal"
+  tabIndex="-1"
+>
+  <div
+    className="relative w-full h-full max-w-2xl md:h-auto"
+  >
+    <div
+      className="fixed md:w-1/2 top-20 right-0 left-0 mx-auto bg-white rounded-lg shadow dark:bg-gray-700"
+    >
+      <div
+        className="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600"
+      >
+        <h3
+          className="text-xl font-semibold text-gray-900 dark:text-white"
+        >
+          test
+        </h3>
+        <button
+          className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
+          data-testid="close-modal"
+          onClick={[Function]}
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            className="w-5 h-5"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+              fillRule="evenodd"
+            />
+          </svg>
+          <span
+            className="sr-only"
+          >
+            Close modal
+          </span>
+        </button>
+      </div>
+      <img
+        alt=""
+        className="h-80 w-full object-cover"
+      />
+      <div
+        className="p-6 space-y-3"
+      >
+        <div
+          className="uppercase tracking-wide text-sm text-indigo-500 font-semibold"
+        >
+          test
+        </div>
+        <div
+          className="flex justify-between"
+        >
+          <div
+            className="flex justify-start items-center gap-2 leading-relaxed text-gray-500 dark:text-gray-400"
+          >
+            <svg
+              fill="currentColor"
+              height={20}
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width={20}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M256 92.6c-69.6-.1-139.1 11.6-208.56 35.4 0 0-9.87 22.6-17.98 41.3a46.9 46.9 0 0 0-3.49 12.2c48.55-18.4 97.13-31 145.63-38 4.5-8.8 13.7-14.6 23.9-14.6h17.3c7.9 0 15.1 3.4 20.1 8.9 15.4-.6 30.8-.7 46.4-.1 4.9-5.5 12.1-8.8 19.8-8.8h17.3c10.1 0 19.1 5.6 23.7 14.1 48.7 6.6 97.2 19.4 145.9 38.3-.7-4-1.8-8.2-3.5-12-8.1-18.7-18-41.3-18-41.3-69.5-23.4-139-35.33-208.5-35.4zm-60.5 53.6c-4.7 0-8.8 3.4-9.6 8.1l-6.7 40.4c-12.1 2.2-23.9 5-35.3 8.4-9.8 3-17.6 10.4-21.2 19.9-13.8 37-48.72 130.6-48.72 130.6H438s-34.8-93.5-48.7-130.6c-3.5-9.5-11.4-17-21.2-19.9-11.4-3.4-23.2-6.2-35.3-8.4l-6.8-40.4c-.8-4.7-4.8-8.1-9.6-8.1h-17.3c-4.6 0-8.7 3.2-9.5 7.8l-2.2 10.6h-62.9l-2.2-10.6c-.8-4.6-4.8-7.8-9.5-7.8zm163.8 17.3-2.7 18.6c5.6 1.4 11.1 2.8 16.4 4.5 14 6.2 25.7 15.7 31.1 27.2l64.8 15.5c6.4-9.8 13.6-18.7 16.3-29.8-42-16.6-83.9-28.7-125.9-36zm-206.5.5c-42 7.5-84.01 19.4-126.02 35.6 3.05 11.7 9.6 19.6 16.31 29.7l64.81-15.5c5.9-13 17.2-23 31-27.2 5.5-1.6 11-3.1 16.5-4.5zM256 197.3c44.7 0 81 30.9 81 69s-36.3 68.9-81 68.9-81.1-30.8-81.1-68.9c0-38.1 36.4-69 81.1-69zm0 17.6c-30.1 0-54.5 20.8-54.5 46.4 0 25.6 24.4 46.4 54.5 46.4s54.4-20.8 54.4-46.4c0-25.6-24.3-46.4-54.4-46.4zM73.97 376.5l21.76 42.9H416.2l21.7-42.9z"
+              />
+            </svg>
+             
+            +1234
+          </div>
+          <div
+            className="flex justify-start items-center gap-2 leading-relaxed text-gray-500 dark:text-gray-400"
+          >
+            <svg
+              enableBackground="new 0 0 48 48"
+              fill="currentColor"
+              height={20}
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              version="1"
+              viewBox="0 0 48 48"
+              width={20}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="24"
+                cy="24"
+                fill="#00ACC1"
+                r="20"
+              />
+              <circle
+                cx="24"
+                cy="24"
+                fill="#eee"
+                r="16"
+              />
+              <rect
+                height="13"
+                width="2"
+                x="23"
+                y="11"
+              />
+              <rect
+                height="9.2"
+                transform="matrix(-.707 .707 -.707 -.707 65.787 27.25)"
+                width="2.3"
+                x="26.1"
+                y="22.7"
+              />
+              <circle
+                cx="24"
+                cy="24"
+                r="2"
+              />
+              <circle
+                cx="24"
+                cy="24"
+                fill="#00ACC1"
+                r="1"
+              />
+            </svg>
+             
+            Open
+          </div>
+        </div>
+        <div
+          className="flex justify-between"
+        >
+          <div
+            className="flex items-center"
+            data-testid="rating"
+          >
+            <svg
+              aria-hidden="true"
+              className="w-5 h-5 text-yellow-400"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>
+                First star
+              </title>
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              className="w-5 h-5 text-yellow-400"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>
+                Second star
+              </title>
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              className="w-5 h-5 text-yellow-400"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>
+                Third star
+              </title>
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              className="w-5 h-5 text-yellow-400"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>
+                Fourth star
+              </title>
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              className="w-5 h-5 text-gray-300 dark:text-gray-500"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>
+                Fifth star
+              </title>
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+              />
+            </svg>
+            <p
+              className="ml-2 text-sm font-medium text-gray-500 dark:text-gray-400"
+            >
+              4
+               out of 5
+            </p>
+          </div>
+          <div>
+            $$
+          </div>
+        </div>
+        <span
+          className="text-md"
+        >
+          <b>
+            Reviews: 
+          </b>
+           
+          23
+        </span>
+        <p
+          className="text-base leading-relaxed text-gray-500 dark:text-gray-400"
+        >
+          Category:
+           
+          <span
+            className="text-orange-900 text-sm"
+          >
+            abc
+             
+          </span>
+        </p>
+        <div
+          className="border-t border-gray-200 text-center py-4"
+        >
+          <div
+            className="relative overflow-x-auto"
+          >
+            <table
+              className="w-full text-sm text-left text-gray-500 dark:text-gray-400"
+            >
+              <thead
+                className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"
+              >
+                <tr>
+                  <th
+                    className="px-6 py-3"
+                    scope="col"
+                  >
+                    Locations
+                  </th>
+                  <th
+                    className="px-6 py-3"
+                    scope="col"
+                  >
+                    Address
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr
+                  className="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+                >
+                  <td
+                    className="px-6 py-4"
+                  >
+                    Address 
+                  </td>
+                  <td
+                    className="px-6 py-4"
+                  >
+                    1
+                  </td>
+                </tr>
+                <tr
+                  className="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+                >
+                  <td
+                    className="px-6 py-4"
+                  >
+                    Address 
+                  </td>
+                  <td
+                    className="px-6 py-4"
+                  >
+                    2
+                  </td>
+                </tr>
+                <tr
+                  className="bg-white dark:bg-gray-800"
+                >
+                  <td
+                    className="px-6 py-4"
+                  >
+                    Address 
+                  </td>
+                  <td
+                    className="px-6 py-4"
+                  >
+                    3
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

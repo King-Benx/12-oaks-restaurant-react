@@ -19,6 +19,7 @@ function CustomModal({ isOpen, data, closeModalHandler }) {
   const closeModal = () => closeModalHandler();
   return (
     <div
+      data-testid="customModal"
       tabIndex="-1"
       aria-hidden="true"
       className={`fixed backdrop-blur-sm bg-white/30 top-0 left-0 right-0 z-50 ${
@@ -33,6 +34,7 @@ function CustomModal({ isOpen, data, closeModalHandler }) {
             </h3>
             <button
               type="button"
+              data-testid="close-modal"
               className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
               onClick={() => closeModal()}
             >

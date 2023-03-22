@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 function Rating({ rating }) {
   return (
-    <div className="flex items-center">
+    <div className="flex items-center" data-testid="rating">
       <svg
         aria-hidden="true"
         className="w-5 h-5 text-yellow-400"

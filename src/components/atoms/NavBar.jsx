@@ -2,7 +2,7 @@ import {IoRestaurant} from "react-icons/io5";
 
 function NavBar() {
   return (
-    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900" data-testid="navbar">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <div href="https://flowbite.com/" className="flex items-center">
           <IoRestaurant
