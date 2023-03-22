@@ -5,6 +5,10 @@ A simple web application that consumes an api to deliver content about businesse
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 
+![Screenshot 2023-03-22 at 04-43-08 12-oaks Restuarants](https://user-images.githubusercontent.com/17830204/226783085-d3b52531-d1fb-417a-a32c-a78c834a0cfe.png)
+
+![Screenshot 2023-03-22 at 04-43-33 12-oaks Restuarants](https://user-images.githubusercontent.com/17830204/226783132-3b38cfde-5609-4102-9fa6-e37154772bc6.png)
+
 ## Table of Contents
 
 - [Technologies and Libraries Used](#technologies-and-libraries-used)
@@ -41,6 +45,9 @@ A simple web application that consumes an api to deliver content about businesse
 2. Build dependencies using `npm i` or `yarn` if you have yarn installed
 3. Set up respective environment variables in your `.env` file in your root directory. Follow the `.env.example`
 4. Run the project using `npm start` or `yarn start`
+
+NB: Make sure your API server is running as well
+[12-oaks-restaurant-api](https://github.com/King-Benx/12-oaks-restaurant-api)
 
 ### Testing
 
