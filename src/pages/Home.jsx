@@ -6,10 +6,10 @@ import Main from "../components/organisms/Main";
 function Home() {
   const [state, setState] = useState({location:"", term:""});
   const onSearch = (data) => {
-    setState({
-      ...state,
+    setState(prevState=>({
+      ...prevState,
       ...data
-    });
+    }));
   };
 
   return (
