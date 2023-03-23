@@ -36,8 +36,9 @@ A simple web application that consumes an api to deliver content about businesse
 
 ## Prerequisites
 
-1. Clone project `git clone git@github.com:King-Benx/12-oaks-restaurant-react.git`
-2. Navigate to root directory.
+1. Node v18 recommended
+2. Clone project `git clone git@github.com:King-Benx/12-oaks-restaurant-react.git`
+3. Navigate to root directory.
 
 ### Getting started without docker installed on your machine or you donot want to use docker
 
